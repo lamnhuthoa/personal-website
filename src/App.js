@@ -1,10 +1,11 @@
-import './App.css';
-import About from './components/About';
+import Intro from './components/Intro';
+import Social from './components/Social';
 
 function App() {
   return (
-    <div className="App">
-      <About/>
+    <div className="App" style={{position: 'relative'}}>
+      <Intro/>
+      <Social/>
     </div>
   );
 }

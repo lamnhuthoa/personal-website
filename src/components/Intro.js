@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import './About.css'
+import './Intro.css'
 
-export default class About extends Component {
+export default class Intro extends Component {
     render() {
-        let jobTitle = "Associate Tester @ FPT Software"
+        let jobTitle = "Front-End Developer"
 
         return (
-            <div style={{ backgroundImage: 'url(./img/sirisvisual-unsplash.jpg)', backgroundSize: '100%', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', width: '100%', height: '100vh' }}>
+            <div style={{ backgroundImage: 'url(./img/jasper-garratt-unsplash.jpg)', backgroundSize: '100%', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', width: '100%', height: '100vh' }}>
                 <nav className="navbar navbar-fixed-top navbar-expand-sm">
                     <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
@@ -34,16 +34,12 @@ export default class About extends Component {
                 <section className="container mt-5">
                     <div className="row" style={{ height: '500px' }}>
                         <div className="col-6" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                            <h4 style={{ color: '#A19882' }}>Hello! I'm</h4>
-                            <h1 style={{ color: '#fff', fontSize: '100px', fontFamily: 'Dancing Script' }}>Hoa Lam</h1>
-                            <h4 style={{ color: '#A19882' }}>{jobTitle}</h4>
+                            <h4 style={{ color: '#fff', fontSize: '50px', fontFamily: 'Josefin Sans' }}>Hello! I'm</h4>
+                            <h1 style={{ color: '#FFC93C', fontSize: '150px', fontFamily: 'Dancing Script' }}>Hoa Lam</h1>
+                            <h4 style={{ color: '#fff', fontSize: '50px', fontFamily: 'Josefin Sans' }}>{jobTitle}</h4>
                         </div>
-                        <div className="col-6" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                            <div className="card" style={{ background: 'transparent' }}>
-                                <img width={200} className="my-2" style={{ borderRadius: '50%', alignSelf: 'center', border: '5px solid transparent', boxShadow: 'inset 0 0 0.1rem 0.1rem rgba(0,0,0,.05), 0 0 0.1rem 0.1rem rgba(0,0,0,.05)' }} src="./img/avt-img-removebg.png" />
-                                <h3 className="text-center">Lâm Nhựt Hòa</h3>
-                                <div className="card-body" style={{ background: '#fff' }}></div>
-                            </div>
+                        <div className="col-6" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                            <button className="CV-download">Download CV</button>
                         </div>
                     </div>
                 </section>
