@@ -59,6 +59,7 @@ nav {
   box-shadow: 1vw 1vw 0 rgba(255, 201, 60);
   cursor: pointer;
   transition: all 0.3s ease;
+  outline: none;
 }
 
 .CV-download:hover {
