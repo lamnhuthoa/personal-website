@@ -21,7 +21,7 @@ export default class Social extends Component {
                             <i class="fab fa-linkedin-in"></i>
                         </div>
                     </a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCukW1Um0W4I_xgJH-UIRC9w">
+                    <a target="_blank" href="https://www.youtube.com/channel/UClQL9itFq83tZ0oxrsZAF4w">
                         <div className="social-item social-item-youtube">
                             <i class="fab fa-youtube"></i>
                         </div>
