@@ -1,0 +1,16 @@
+.about-title{
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+}
+
+.img-container{
+    margin: 25px;
+}
+
+.img-avatar{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #ffc93c;
+}

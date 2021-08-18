@@ -1,0 +1,100 @@
+.navbar {
+  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 30px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.4s ease;
+  height: 100px;
+  background: rgba(0,0,0,0.4)
+}
+
+.navbar-collapse .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-item--brand {
+  transition: all 0.4s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.nav-item--brand:hover {
+  color: #ffc93c;
+}
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.nav-item--brand:hover > .navbar-brand {
+  color: #ffc93c;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.nav-link:hover {
+  color: #ffc93c;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item {
+  letter-spacing: 5px;
+}
+
+/* Scroll Effect */
+.active {
+  background: url("../../assets/img/tim-foster-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 75px;
+  z-index: 2;
+}
+
+.active .nav-item--brand:hover {
+  color: #ffc93c;
+}
+
+.active .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.active .nav-item--brand:hover > .navbar-brand {
+  color: #ffc93c;
+}
+
+.active .nav-link {
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.active .nav-link:hover {
+  color: #ffc93c;
+}
+
+.active .nav-item {
+  margin: 0 15px;
+}
+
+.active .nav-item {
+  letter-spacing: 5px;
+}

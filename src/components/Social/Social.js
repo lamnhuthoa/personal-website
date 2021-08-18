@@ -4,7 +4,7 @@ import './Social.css'
 export default class Social extends Component {
     render() {
         return (
-            <div style={{ position: 'absolute', bottom: 0, right: '25px' }}>
+            <div style={{ position: 'fixed', bottom: 0, right: '25px' }}>
                 <div className="social text-white">
                     <a target="_blank" href="https://www.facebook.com/hoa.lam.888">
                         <div className="social-item social-item-facebook">
