@@ -53,8 +53,9 @@
   height: 100%;
 }
 
-.about-info-content-1, .about-info-content-2{
-    width: 50%;
+.about-info-content-1,
+.about-info-content-2 {
+  width: 50%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
@@ -73,7 +74,7 @@
   }
 
   .about-container-section {
-    padding-top: 40%;
+    padding-top: 20%;
   }
 
   .about-title {
@@ -99,11 +100,31 @@
 
   .about-info-container {
     margin-top: 25px;
-    font-size: 10px;
-    width: 150%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    padding: 0;
+  }
+
+  .about-info-container .about-info-content {
+    width: 100%;
+    padding-left: 15%;
+  }
+
+  .about-info-container .about-info-content-1 {
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .about-info-container .about-info-content-2 {
+    margin-bottom: 15px;
+    width: 100%;
   }
 
   .about-info-container .about-info-content li{
-    width: 120%;
+    width: 250%;
   }
 }

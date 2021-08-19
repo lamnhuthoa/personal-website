@@ -14,18 +14,18 @@ export default class About extends Component {
                             </div>
                         </div>
                         <div className="col-9 row about-info-container">
-                            <ul className="text-white col-6 about-info-content about-info-content-1">
+                            <div className="text-white col-6 about-info-content about-info-content-1">
                                 <li><strong>Full Name:</strong> Lâm Nhựt Hòa</li>
                                 <li><strong>Education:</strong> University of Science</li>
                                 <li><strong>Expected graduation:</strong> 2023</li>
                                 <li><strong>Languages:</strong> English, Vietnamese</li>
-                            </ul>
-                            <ul className="text-white col-6 about-info-content about-info-content-2">
+                            </div>
+                            <div className="text-white col-6 about-info-content about-info-content-2">
                                 <li><strong>DOB:</strong> May 8, 1999</li>
                                 <li><strong>Major:</strong> Information Technology</li>
                                 <li><strong>Based in:</strong> Saigon, Vietnam</li>
                                 <li><strong>Email:</strong> hoalamnhut@gmail.com</li>
-                            </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
