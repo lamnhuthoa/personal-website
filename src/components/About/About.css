@@ -68,7 +68,7 @@
   }
 
   .about-heading {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Josefin Sans", sans-serif;
     color: #fff;
   }
@@ -93,7 +93,7 @@
 
   .img-avatar {
     display: block;
-    width: 150%;
+    width: 200%;
     border-radius: 50%;
     background-color: #ffc93c;
   }
