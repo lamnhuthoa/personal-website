@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './About.css'
 
 export default class About extends Component {
+
     render() {
         return (
             <div className="about-container" id="about">
@@ -33,3 +34,5 @@ export default class About extends Component {
         )
     }
 }
+
+// onMouseOver={e => e.currentTarget.src = "./img/av-1.png"} onMouseOut={e => e.currentTarget.src = "./img/av-2.png"}
