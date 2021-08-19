@@ -1,3 +1,9 @@
+.social-container{
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+}
+
 .social {
   position: relative;
 }
@@ -54,4 +60,22 @@
 .social-item-youtube:hover {
   background: rgba(255, 0, 0);
   color: #fff;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+  .social-item {
+    border: 2px solid #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 0.3rem;
+    transition: all 0.4s ease;
+  }
+  
+  .social-item i {
+    font-size: 0.7rem;
+    width: 0.7rem;
+    line-height: 0.7rem;
+    color: #fff;
+    background: transparent;
+  }
 }

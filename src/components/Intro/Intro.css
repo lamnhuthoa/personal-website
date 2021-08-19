@@ -1,3 +1,47 @@
+.intro-container{
+  background-image: url('../../assets/img/jasper-garratt-unsplash.jpg'); 
+  background-size: 100%; 
+  background-repeat: no-repeat; 
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  background-attachment: fixed;
+}
+
+.intro-container-section{
+  padding-top: 17.5%;
+}
+
+.intro-container-section .row{
+  height: 100%;
+}
+
+.intro-title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-title-container .intro-text{
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Josefin Sans';
+}
+
+.intro-title-container .intro-title{
+  color: #ffc93c;
+  font-size: 150px;
+  font-family: 'Dancing Script'
+}
+
+.download-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* cv-button */
 .CV-download {
   width: 20vw;
@@ -29,3 +73,72 @@
   }
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .intro-container{
+    background-image: url('../../assets/img/jasper-garratt-unsplash.jpg'); 
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .intro-title-container .intro-text{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Josefin Sans';
+    width: 200%;
+  }
+  
+  .intro-title-container .intro-title{
+    color: #ffc93c;
+    font-size: 80px;
+    width: 200%;
+    font-family: 'Dancing Script'
+  }
+
+  .intro-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro-container-section{
+    padding-top: 45%;
+  }
+
+  .intro-container-section .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download-container{
+    margin-top: 15px;
+  }
+
+  .CV-download {
+    width: 50vw;
+    height: 10vw;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4vw;
+    letter-spacing: 0.1em;
+    color: #e8e8e8;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: linear-gradient(45deg, rgba(162, 213, 242, 0.1), rgba(64, 168, 196, 0.2), #07689F);
+    background-size: 400% 400%;
+    box-shadow: 1vw 2vw 0 rgba(255, 201, 60);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+
+  .CV-download:hover {
+    animation: gradient 10s ease infinite;
+    font-size: 4vw;
+    box-shadow: 1vw 1vw 0 rgba(255, 201, 60);
+  }
+}
