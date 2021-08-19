@@ -63,6 +63,10 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px){
+  .social-container{
+    z-index: 2;
+  }
+
   .social-item {
     border: 2px solid #fff;
     margin-bottom: 2rem;
