@@ -1,23 +1,22 @@
 .about-container {
   background-image: url("../../assets/img/patrick-hodskins-unsplash.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  background-attachment: fixed;
 }
 
 .about-heading {
-  font-size: 5rem;
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
-  margin-top: 1rem;
 }
 
 .about-container-section {
-  padding-top: 15%;
+  height: 100vh;
+  padding-top: 12.5%;
+  padding-bottom: 17.5%;
 }
 
 .about-title {
@@ -51,6 +50,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-info-content-1,
@@ -59,22 +59,20 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
-  .about-container {
-    background-image: url("../../assets/img/patrick-hodskins-unsplash.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  .about-container{
+    background-attachment: unset;
   }
 
   .about-heading {
-    font-size: 3rem;
-    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
   }
 
   .about-container-section {
-    padding-top: 50%;
+    height: initial;
+    padding-top: 30%;
+    padding-bottom: 20%;
   }
 
   .about-title {
@@ -93,20 +91,21 @@
 
   .img-avatar {
     display: block;
-    width: 200%;
+    width: 150%;
     border-radius: 50%;
     background-color: #ffc93c;
   }
 
   .about-info-container {
     margin-top: 25px;
-    font-size: 18px;
+    font-size: 13px;
     display: flex;
     flex-direction: column;
     align-items: start;
     background: rgba(0, 0, 0, 0.3);
     height: 100%;
     padding: 0;
+    width: 300px;
   }
 
   .about-info-container .about-info-content {

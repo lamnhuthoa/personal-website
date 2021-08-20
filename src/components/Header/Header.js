@@ -7,7 +7,7 @@ export default function Header(props) {
     const [navlink, setNavlink] = useState(false)
 
     const changeBackground = () => {
-        if(window.scrollY > 20){
+        if (window.scrollY > 20) {
             setNavbar(true)
         } else {
             setNavbar(false)
@@ -27,13 +27,13 @@ export default function Header(props) {
                         <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#about">About</a>
                     </li>
                     <li className="nav-item">
-                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#experience">Experience</a>
+                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#projects">Projects</a>
                     </li>
                     <li className="nav-item nav-item--brand">
-                        <a activeStyle={{ color: '#FFC93C' }} className="navbar-brand mr-0 p-2" href="#">H.</a>
+                        <a activeStyle={{ color: '#FFC93C' }} className="navbar-brand mr-0" href="#">H.</a>
                     </li>
                     <li className="nav-item">
-                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#projects">Projects</a>
+                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#experience">Experience</a>
                     </li>
                     <li className="nav-item">
                         <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#connect">Connect</a>

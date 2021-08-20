@@ -1,0 +1,22 @@
+.project-container {
+  height: 100vh;
+  padding-top: 12.5%;
+  padding-bottom: 17.5%;
+  background: rgb(4, 20, 46);
+  background-image: url("../../assets/img/low-contrast-linen.png");
+  /* background: linear-gradient(to right bottom, rgba(132, 169, 172) 0%, rgba(60, 106, 121) 50%, rgba(33, 65, 82) 100%); */
+}
+
+.project-title{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .project-container {
+    height: initial;
+    padding-top: 30%;
+    padding-bottom: 20%;
+  }
+}

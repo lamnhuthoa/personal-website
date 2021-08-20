@@ -1,16 +1,17 @@
 .intro-container{
   background-image: url('../../assets/img/jasper-garratt-unsplash.jpg'); 
-  background-size: 100%; 
+  background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center;
   width: 100%;
-  height: 100vh;
   z-index: 2;
   background-attachment: fixed;
 }
 
 .intro-container-section{
+  height: 100vh;
   padding-top: 17.5%;
+  padding-bottom: 17.5%;
 }
 
 .intro-container-section .row{
@@ -25,8 +26,8 @@
 
 .intro-title-container .intro-text{
   color: #fff;
-  font-size: 50px;
-  font-family: 'Josefin Sans';
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .intro-title-container .intro-title{
@@ -46,7 +47,7 @@
 .CV-download {
   width: 20vw;
   height: 6vw;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2vw;
   letter-spacing: 0.1em;
   color: #e8e8e8;
@@ -75,23 +76,20 @@
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
   .intro-container{
-    background-image: url('../../assets/img/jasper-garratt-unsplash.jpg'); 
-    background-size: 100%; 
-    background-repeat: no-repeat; 
-    background-position: center center;
-    background-size: cover;
+    background-position: left;
+    background-attachment: unset;
   }
 
   .intro-title-container .intro-text{
     color: #fff;
-    font-size: 35px;
-    font-family: 'Josefin Sans';
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
     width: 200%;
   }
   
   .intro-title-container .intro-title{
     color: #ffc93c;
-    font-size: 80px;
+    font-size: 70px;
     width: 200%;
     font-family: 'Dancing Script'
   }
@@ -104,7 +102,9 @@
   }
 
   .intro-container-section{
-    padding-top: 50%;
+    height: initial;
+    padding-top: 30%;
+    padding-bottom: 20%;
   }
 
   .intro-container-section .row{
@@ -119,10 +119,10 @@
   }
 
   .CV-download {
-    width: 50vw;
+    width: 30vw;
     height: 10vw;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
     letter-spacing: 0.1em;
     color: #e8e8e8;
     border: none;
@@ -138,7 +138,7 @@
 
   .CV-download:hover {
     animation: gradient 10s ease infinite;
-    font-size: 4vw;
+    font-size: 3vw;
     box-shadow: 1vw 1vw 0 rgba(255, 201, 60);
   }
 }
