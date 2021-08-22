@@ -77,13 +77,18 @@
     cursor: pointer;
     padding: 0.4rem;
     transition: all 0.4s ease;
+    border-radius: 50%;
+    z-index: 2;
   }
   
   .social-item i {
-    font-size: 0.7rem;
-    width: 0.7rem;
-    line-height: 0.7rem;
+    font-size: 0.8rem;
+    width: 0.8rem;
+    line-height: 0.8rem !important;
     color: #fff;
     background: transparent;
+    z-index: 2;
+    display: block;
+    text-align: center;
   }
 }

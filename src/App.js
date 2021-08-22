@@ -13,7 +13,7 @@ function App() {
       <Intro/>
       <Social/>
       <About/>
-      <Projects/>
+      {/* <Projects/> */}
     </div>
   );
 }
