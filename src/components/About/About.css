@@ -60,6 +60,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
   .about-container{
+    overflow-x: hidden;
     background-attachment: unset;
   }
 
