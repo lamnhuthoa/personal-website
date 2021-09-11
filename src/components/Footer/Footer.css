@@ -14,3 +14,10 @@
     margin: 0;
     color: var(--white);
 }
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    
+    .footer-container{
+        padding: 1rem 0;
+    }
+}
