@@ -137,13 +137,25 @@
     margin: 1rem 0;
   }
 
-  .btn-about:hover{
-    animation: gradient 10s ease infinite;
+  /* About me button */
+  .btn-about{
     box-shadow: 1vw 1vw 0 var(--grey);
+    cursor: pointer;
+  }
+
+  /* cv-button */
+  .CV-download{
+    box-shadow: 1vw 1vw 0 var(--black);
+    cursor: pointer;
+  }
+
+  a:hover .btn-about{
+    animation: gradient 10s ease infinite;
+    box-shadow: 0.6vw 0.6vw 0 var(--grey);
   }
 
   .CV-download:hover {
     animation: gradient 10s ease infinite;
-    box-shadow: 1vw 1vw 0 var(--black);
+    box-shadow: 0.6vw 0.6vw 0 var(--black);
   }
 }
