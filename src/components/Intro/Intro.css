@@ -1,17 +1,13 @@
 .intro-container{
-  background-image: url('../../assets/img/jasper-garratt-unsplash.jpg'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center center;
-  width: 100%;
+  background-color: var(--white);
   z-index: 2;
   background-attachment: fixed;
 }
 
 .intro-container-section{
   height: 100vh;
-  padding-top: 17.5%;
-  padding-bottom: 17.5%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 .intro-container-section .row{
@@ -25,13 +21,13 @@
 }
 
 .intro-title-container .intro-text{
-  color: #fff;
+  color: var(--grey);
   font-size: 45px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .intro-title-container .intro-title{
-  color: #ffc93c;
+  color: var(--black);
   font-size: 150px;
   font-family: 'Dancing Script'
 }
@@ -43,29 +39,54 @@
   align-items: center;
 }
 
-/* cv-button */
-.CV-download {
-  width: 20vw;
-  height: 6vw;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2vw;
+/* About me button */
+.btn-about{
+  width: 12rem;
+  height: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   letter-spacing: 0.1em;
-  color: #e8e8e8;
+  color: var(--white);
   border: none;
   border-radius: 10px;
   outline: none;
-  background: linear-gradient(45deg, rgba(162, 213, 242, 0.1), rgba(64, 168, 196, 0.2), #07689F);
+  background: var(--black);
   background-size: 400% 400%;
-  box-shadow: 1vw 1vw 0 rgba(255, 201, 60);
+  box-shadow: 0.6vw 0.6vw 0 #aca7a7;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: font-size 0.5s ease, box-shadow 0.3s ease-in-out;
   outline: none;
+  margin: 2rem 0;
 }
 
-.CV-download:hover {
+/* cv-button */
+.CV-download{
+  width: 12rem;
+  height: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: var(--black);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(235, 235, 235);
+  background-size: 400% 400%;
+  box-shadow: 0.6vw 0.6vw 0 var(--black);
+  cursor: pointer;
+  transition: font-size 0.5s ease, box-shadow 0.3s ease;
+  outline: none;
+  margin: 2rem 0;
+}
+
+.btn-about:hover{
   animation: gradient 10s ease infinite;
-  font-size: 2.05vw;
-  box-shadow: 0.2vw 0.2vw 0 rgba(255, 201, 60);
+  box-shadow: 0.2vw 0.2vw 0 var(--grey);
+}
+
+.CV-download:hover{
+  animation: gradient 10s ease infinite;
+  box-shadow: 0.2vw 0.2vw 0 var(--black);
 }
 
 @keyframes gradient {
@@ -75,20 +96,13 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
-  .intro-container{
-    background-position: left;
-    background-attachment: unset;
-  }
-
   .intro-title-container .intro-text{
-    color: #fff;
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 200%;
   }
   
   .intro-title-container .intro-title{
-    color: #ffc93c;
     font-size: 70px;
     width: 200%;
     font-family: 'Dancing Script'
@@ -99,12 +113,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 10%;
   }
 
   .intro-container-section{
     height: initial;
-    padding-top: 50%;
-    padding-bottom: 40%;
+    padding-top: 40%;
+    padding-bottom: 20%;
   }
 
   .intro-container-section .row{
@@ -118,27 +133,17 @@
     margin-top: 15px;
   }
 
-  .CV-download {
-    width: 30vw;
-    height: 10vw;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3vw;
-    letter-spacing: 0.1em;
-    color: #e8e8e8;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    background: linear-gradient(45deg, rgba(162, 213, 242, 0.1), rgba(64, 168, 196, 0.2), #07689F);
-    background-size: 400% 400%;
-    box-shadow: 1vw 2vw 0 rgba(255, 201, 60);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    outline: none;
+  .btn-about, .CV-download{
+    margin: 1rem 0;
+  }
+
+  .btn-about:hover{
+    animation: gradient 10s ease infinite;
+    box-shadow: 1vw 1vw 0 var(--grey);
   }
 
   .CV-download:hover {
     animation: gradient 10s ease infinite;
-    font-size: 3vw;
-    box-shadow: 1vw 1vw 0 rgba(255, 201, 60);
+    box-shadow: 1vw 1vw 0 var(--black);
   }
 }

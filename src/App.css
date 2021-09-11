@@ -1,3 +1,10 @@
+:root{
+    --black: #171717;
+    --grey: #868686;
+    --red: #DA0037;
+    --white: #EDEDED;
+}
+
 html {
     scroll-behavior: smooth;
 }

@@ -24,13 +24,7 @@ export default function Header(props) {
             <div className="navbar-container-section">
                 <ul className="navbar-nav m-auto">
                     <li className="nav-item">
-                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#about">ABOUT</a>
-                    </li>
-                    <li className="nav-item">
-                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#projects">PROJECTS</a>
-                    </li>
-                    <li className="nav-item nav-item--brand">
-                        <a activeStyle={{ color: '#FFC93C' }} className="navbar-brand mr-0" href="#">H.</a>
+                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#">HOME</a>
                     </li>
                     <li className="nav-item">
                         <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#experience">EXPERIENCE</a>

@@ -18,7 +18,11 @@ export default class Intro extends Component {
                             <h4 className="intro-text">{greetings}</h4>
                         </div>
                         <div className="col-6 download-container animate__animated animate__fadeIn animate__delay-1s">
-                            <button className="CV-download">Download CV</button>
+                            <div className="row d-flex flex-column justify-content-center align-items-center">
+                                <a href="#about"><button className="btn-about">About me</button></a>
+                                <button className="CV-download">View Resume</button>                                
+                            </div>
+
                         </div>
                     </div>
                 </section>
