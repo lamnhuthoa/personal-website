@@ -6,8 +6,8 @@
 
 .intro-container-section{
   height: 100vh;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 12%;
+  padding-bottom: 12%;
 }
 
 .intro-container-section .row{
@@ -30,6 +30,17 @@
   color: var(--black);
   font-size: 150px;
   font-family: 'Dancing Script'
+}
+
+.intro-small-text{
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  margin-right: 50px;
+  font-weight: lighter;
+  color: var(--black);
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .download-container{
@@ -89,17 +100,17 @@
   box-shadow: 0.2vw 0.2vw 0 var(--black);
 }
 
-@keyframes gradient {
-  50% {
-    background-position: 100% 0;
-  }
-}
-
 @media screen and (min-width: 300px) and (max-width: 600px) {
   .intro-title-container .intro-text{
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     width: 200%;
+  }
+
+  .intro-small-text{
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
   }
   
   .intro-title-container .intro-title{

@@ -13,8 +13,9 @@ export default class Intro extends Component {
                 <section className="container intro-container-section">
                     <div className="row">
                         <div className="col-6 intro-title-container animate__animated animate__fadeInLeft">
-                            <h4 className="intro-text">Hello! I'm</h4>
+                            <h4 className="intro-text">Hello! It's</h4>
                             <h1 className="intro-title">Hoa Lam</h1>
+                            <p className="intro-small-text">Lâm Nhựt Hòa</p>
                             <h4 className="intro-text">{greetings}</h4>
                         </div>
                         <div className="col-6 download-container animate__animated animate__fadeIn animate__delay-1s">
