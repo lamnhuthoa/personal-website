@@ -1,4 +1,5 @@
 import React, { Component, useState } from 'react'
+import {NavLink} from 'react-router-dom'
 import './Header.css'
 
 export default function Header(props) {
@@ -24,13 +25,13 @@ export default function Header(props) {
             <div className="navbar-container-section">
                 <ul className="navbar-nav m-auto">
                     <li className="nav-item">
-                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#">HOME</a>
+                        <NavLink activeClassName="nav-link--active" className="nav-link" to="/">HOME</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#experience">EXPERIENCE</a>
+                        <NavLink activeClassName="" className="nav-link" to="/">EXPERIENCE</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a activeStyle={{ color: '#FFC93C' }} className="nav-link" href="#connect">CONNECT</a>
+                        <NavLink activeClassName="" className="nav-link" to="/">CONNECT</NavLink>
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,55 @@
+.btn-to-top {
+  position: fixed;
+  bottom: 0rem;
+  right: 0.875rem;
+  border: none;
+  background: none;
+  z-index: 1;
+}
+
+.btn-to-top a div {
+  background-color: var(--white);
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0.7rem;
+  transition: all 0.5s ease;
+  margin-bottom: 2rem;
+}
+
+.btn-to-top a {
+  text-decoration: none;
+  background: transparent;
+  color: transparent;
+}
+
+.btn-to-top a div i {
+  border-radius: 50%;
+  color: var(--black);
+  font-size: 30px;
+  display: block;
+  font-size: 1.2rem;
+  width: 1.2rem;
+  line-height: 1.2rem !important;
+  text-align: center;
+}
+
+.btn-to-top a div:hover {
+  background: var(--black);
+}
+
+.btn-to-top a div:hover i {
+  color: var(--white);
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .btn-to-top a div {
+    padding: 0.4rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .btn-to-top a div i {
+    font-size: 1rem;
+    width: 1rem;
+    line-height: 1rem !important;
+  }
+}

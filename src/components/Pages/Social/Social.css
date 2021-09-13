@@ -1,7 +1,7 @@
 .social-container{
   position: fixed;
   bottom: 0;
-  right: 15px;
+  left: 15px;
 }
 
 .social {
@@ -82,7 +82,6 @@
     font-size: 0.8rem;
     width: 0.8rem;
     line-height: 0.8rem !important;
-    color: #000;
     display: block;
   }
 }

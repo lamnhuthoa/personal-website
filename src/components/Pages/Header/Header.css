@@ -37,6 +37,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.nav-link--active{
+  color: var(--red);
+}
+
 .nav-link:hover {
   color: var(--red);
 }
@@ -58,6 +62,10 @@
 
 .active .nav-link {
   color: #fff;
+}
+
+.active .nav-link--active{
+  color: var(--black);
 }
 
 .active .nav-link:hover {

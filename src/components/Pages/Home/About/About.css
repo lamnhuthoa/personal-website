@@ -1,8 +1,7 @@
 .about-container {
   background-color: var(--white);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-image: url("../../../../assets/img/inspiration-geometry.png");
+  background-position: right;
   width: 100%;
   background-attachment: fixed;
 }
@@ -68,8 +67,8 @@
   }
 
   .about-heading {
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-family: 'Dancing Script', sans-serif;
     color: var(--black);
     margin-bottom: 3rem;
   }
@@ -103,18 +102,18 @@
 
   .about-info-container {
     margin-top: 25px;
-    font-size: 13px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     align-items: start;
     height: 100%;
     padding: 0;
-    width: 250px;
+    width: 260px;
   }
 
   .about-info-container .about-info-content {
     width: 100%;
-    padding-left: 10%;
+    padding-left: 0%;
   }
 
   .about-info-container .about-info-content-1 {

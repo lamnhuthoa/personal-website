@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 export default function About(props) {
 
     useEffect(() => {
-        Aos.init({ duration: 2000 });
+        Aos.init({ duration: 1000 });
     }, []);
     return (
         <div className="about-container" id="about">
@@ -16,7 +16,7 @@ export default function About(props) {
                 <div className="row about-title">
                     <div className="col-3 about-title-img">
                         <div className="img-container" data-aos="fade-up">
-                            <img className="img-avatar" src="./img/Snap-Chat-avatar.png" />
+                            <img className="img-avatar" src="./img/Snap-Chat-avatar.png"/>
                         </div>
                     </div>
                     <div className="col-9 row about-info-container" data-aos="fade-left">
@@ -29,7 +29,7 @@ export default function About(props) {
                         <div className="text-white col-6 about-info-content about-info-content-2">
                             <li><strong>DOB:</strong> May 8, 1999</li>
                             <li><strong>Major:</strong> Information Technology</li>
-                            <li><strong>Based in:</strong> Saigon, Vietnam</li>
+                            <li><strong>Based in:</strong> Ho Chi Minh City, Vietnam</li>
                             <li><strong>Email:</strong> hoalamnhut@gmail.com</li>
                         </div>
                     </div>
