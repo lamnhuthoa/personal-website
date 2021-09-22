@@ -1,13 +1,13 @@
 .project-container {
   height: 100vh;
-  padding-top: 12.5%;
-  padding-bottom: 17.5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   background: rgb(4, 20, 46);
-  /* background: linear-gradient(to right bottom, rgba(132, 169, 172) 0%, rgba(60, 106, 121) 50%, rgba(33, 65, 82) 100%); */
+  background-color: var(--white);
 }
 
 .project-title{
-    color: #fff;
+    color: var(--black);
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
 }
@@ -15,7 +15,9 @@
 @media screen and (min-width: 300px) and (max-width: 600px) {
   .project-container {
     height: initial;
-    padding-top: 30%;
-    padding-bottom: 20%;
+  }
+
+  .project-title{
+    font-size: 1.4rem;
   }
 }

@@ -8,22 +8,22 @@ export default class Social extends Component {
                 <div className="social text-white">
                     <a href="https://github.com/lamnhuthoa">
                         <div className="social-item social-item-github">
-                            <i class="fab fa-github"></i>
+                            <i className="fab fa-github"></i>
                         </div>
                     </a>
                     <a href="https://www.instagram.com/lamnhuthoa/">
                         <div className="social-item social-item-insta">
-                            <i class="fab fa-instagram"></i>
+                            <i className="fab fa-instagram"></i>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/lamnhuthoa">
                         <div className="social-item social-item-linkedin">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i className="fab fa-linkedin-in"></i>
                         </div>
                     </a>
-                    <a href="https://www.youtube.com/channel/UClQL9itFq83tZ0oxrsZAF4w">
+                    <a href="https://www.youtube.com/channel/UCukW1Um0W4I_xgJH-UIRC9w">
                         <div className="social-item social-item-youtube">
-                            <i class="fab fa-youtube"></i>
+                            <i className="fab fa-youtube"></i>
                         </div>
                     </a>
                 </div>

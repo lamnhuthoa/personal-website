@@ -1,6 +1,6 @@
 .intro-container{
   background-color: var(--white);
-  background-image: url("../../../../assets/img/stardust.png");
+  /* background-image: url("../../../../assets/img"); */
   z-index: 2;
   background-attachment: fixed;
 }
@@ -27,10 +27,14 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.intro-title-container .intro-text:last-child{
+  font-size: 25px;
+}
+
 .intro-title-container .intro-title{
   color: var(--black);
-  font-size: 150px;
-  font-family: 'Dancing Script'
+  font-size: 120px;
+  font-family: 'Roboto'
 }
 
 /* .intro-small-text{
@@ -49,6 +53,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.download-container-content div img{
+  /* border-top-left-radius: 50%; */
+  border-bottom-left-radius: 50%;
 }
 
 /* About me button */
@@ -129,16 +138,14 @@
     width: 200%;
   }
 
-  /* .intro-small-text{
-    margin: 0;
-    text-align: center;
-    font-size: 18px;
-  } */
-  
+  .intro-title-container .intro-text:last-child{
+    font-size: 30px;
+  }
+
   .intro-title-container .intro-title{
-    font-size: 70px;
+    font-size: 60px;
     width: 200%;
-    font-family: 'Dancing Script'
+    font-family: 'Roboto'
   }
 
   .intro-title-container{

@@ -1,0 +1,39 @@
+/* Button Redirect & Download Resume */
+.navigation-container{
+    padding-left: 0;
+}
+
+.navigation-container .nav-redirect{
+    background-color: transparent;
+}
+
+.btn-redirect-to-home, .btn-download-resume{
+    transition: all 0.4s ease;
+    border-radius: 10px;
+}
+
+.btn-redirect-to-home:hover, .btn-download-resume:hover{
+    background-color: var(--grey);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+.btn-redirect-to-home:focus, .btn-download-resume:focus{
+    border: none;
+    outline: none;
+}
+
+.resume-skill-item-title{
+    background-color: var(--grey);
+    color: var(--white);
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    width: 25%;
+}
+
+.language {
+    width: 10%;
+}
+
+.language-level{
+    width: 90%;
+}

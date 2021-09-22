@@ -1,0 +1,101 @@
+.work-exp-container {
+    background-color: var(--white);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+  
+.work-exp-title{
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.work-exp-job-item{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-exp-job-item .work-exp-job-info{
+    width: 70%;
+    padding-left: 5rem;
+}
+
+.work-exp-job-item .work-exp-job-image{
+    width: 30%;
+    padding-right: 5rem;
+}
+
+.work-exp-job-image img {
+    width: 100%;
+    display: block;
+}
+
+.work-exp-job-item .work-exp-job-info h3{
+    font-size: 2.5rem;
+}
+
+.work-exp-job-item .work-exp-job-info h3 span{
+    font-size: 1.2rem !important;
+    color: var(--grey);
+}
+
+.work-exp-job-item .work-exp-job-info p{
+    margin: 0.5rem 0 !important;
+    font-size: 1rem;
+}
+
+.work-exp-job-item .work-exp-job-info ul li{
+    font-size: 1rem;
+}
+  
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    .work-exp-container {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+  
+    .work-exp-title{
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    .work-exp-job-container{
+        margin: 2rem;
+    }
+    
+    .work-exp-job-item{
+        flex-direction: column;
+    }
+
+    .work-exp-job-item .work-exp-job-info{
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .work-exp-job-item .work-exp-job-info h3{
+        font-size: 1.2rem;
+    }
+
+    .work-exp-job-item .work-exp-job-info h3 span{
+        font-size: 1rem !important;
+    }
+
+    .work-exp-job-item .work-exp-job-info p{
+        font-size: 0.9rem;
+    }
+
+    .work-exp-job-item .work-exp-job-info ul li{
+        font-size: 0.9rem;
+    }
+
+    /* image */
+    .work-exp-job-item .work-exp-job-image{
+        display: none;
+    }
+  }
+  

@@ -26,7 +26,7 @@ export default function ButtonBackToTop() {
       {showButton && (
         <button onClick={scrollToTop} className="btn-to-top back-to-top">
           <a href="#">
-            <div>
+            <div className>
               <i class="fa fa-arrow-up" aria-hidden="true"></i>
             </div>
           </a>

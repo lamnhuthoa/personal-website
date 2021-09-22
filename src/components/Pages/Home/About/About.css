@@ -8,7 +8,7 @@
 
 .about-heading {
   font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--black);
   font-weight: bold;
 }
@@ -26,12 +26,15 @@
 }
 
 .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 25px;
 }
 
 .img-avatar {
   display: block;
-  width: 100%;
+  width: 120%;
   border-radius: 50%;
   background-color: var(--grey);
 }
@@ -67,8 +70,8 @@
   }
 
   .about-heading {
-    font-size: 3rem;
-    font-family: 'Dancing Script', sans-serif;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
     color: var(--black);
     margin-bottom: 3rem;
   }
@@ -95,7 +98,7 @@
 
   .img-avatar {
     display: block;
-    width: 150%;
+    width: 200px;
     border-radius: 50%;
     background-color: var(--grey);
   }
@@ -108,12 +111,13 @@
     align-items: start;
     height: 100%;
     padding: 0;
-    width: 260px;
+    width: 300px;
   }
 
   .about-info-container .about-info-content {
     width: 100%;
-    padding-left: 0%;
+    margin-left: 2.5%;
+    padding: 0;
   }
 
   .about-info-container .about-info-content-1 {
