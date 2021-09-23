@@ -47,10 +47,12 @@
 .work-exp-job-item .work-exp-job-info p{
     margin: 0.5rem 0 !important;
     font-size: 1rem;
+    font-style: italic;
 }
 
 .work-exp-job-item .work-exp-job-info ul li{
     font-size: 1rem;
+    color: var(--grey);
 }
   
   @media screen and (min-width: 300px) and (max-width: 600px) {

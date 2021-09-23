@@ -1,8 +1,6 @@
 .intro-container{
   background-color: var(--white);
-  /* background-image: url("../../../../assets/img"); */
   z-index: 2;
-  background-attachment: fixed;
 }
 
 .intro-container-section{
@@ -56,8 +54,9 @@
 }
 
 .download-container-content div img{
-  /* border-top-left-radius: 50%; */
-  border-bottom-left-radius: 50%;
+  /* border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%; */
+  border-radius: 1rem;
 }
 
 /* About me button */
@@ -139,7 +138,7 @@
   }
 
   .intro-title-container .intro-text:last-child{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .intro-title-container .intro-title{

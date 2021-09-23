@@ -21,10 +21,10 @@ export default function Intro() {
               <h4 className="intro-text">Software Developer who plays guitar</h4>
             </div>
 
-            <div className="col-6 download-container" data-aos="fade" data-aos-offset="300" data-aos-easing="ease-in-sine">
-              <div className="d-flex flex-column justify-content-center align-items-center download-container-content">
+            <div className="col-6 download-container">
+              <div className="d-flex flex-column justify-content-center align-items-center download-container-content" data-aos="fade-down" data-aos-duration="500">
                 <div className="text-center">
-                  <img src="./img/guitar-player.png" width={350} />
+                  <img src="./img/cover-studio-1.jpg" width={400}/>
                 </div>
                 <div className="button-section">
                   <a href="#about">

@@ -13,13 +13,13 @@
 }
 
 .social-item {
-  background-color: var(--white);
+  /* background-color: var(--white); */
   border-radius: 50%;
   margin-bottom: 2rem;
   z-index: 3;
   cursor: pointer;
   padding: 0.7rem;
-  transition: all .8s ease;
+  transition: all .4s ease;
 }
 
 .social-item-youtube i{

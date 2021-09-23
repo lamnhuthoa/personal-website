@@ -16,7 +16,7 @@ export default function About(props) {
                 <div className="row about-title">
                     <div className="col-3 about-title-img">
                         <div className="img-container" data-aos="fade-up">
-                            <img className="img-avatar" src="./img/Image-VT-3.jpg"/>
+                            <img className="img-avatar" src="./img/avt-saigon.jpg"/>
                         </div>
                     </div>
                     <div className="col-9 row about-info-container" data-aos="fade-left">
