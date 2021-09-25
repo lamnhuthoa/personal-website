@@ -53,3 +53,16 @@
     line-height: 1rem !important;
   }
 }
+
+@media screen and (min-width: 600.1px) and (max-width: 900px){
+  .btn-to-top a div {
+    padding: 1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .btn-to-top a div i {
+    font-size: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem !important;
+  }
+}

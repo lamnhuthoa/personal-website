@@ -80,6 +80,10 @@
     transition: all 0.8s ease;
     height: 60px;
     padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
   }
 
   .navbar-container-section{
@@ -137,6 +141,52 @@
   .active .nav-link {
     font-size: 11.5px;
     transition: all 0.8s ease;
+  }
+  
+  .active .nav-item {
+    margin: 0;
+  }
+  
+  .active .nav-item {
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 600.1px) and (max-width: 900px){
+  .navbar{
+    width: 100vw;
+  }
+
+  .navbar-container-section ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.4s ease;
+  }
+
+  .navbar-container-section ul .nav-item{
+    width: 12rem;
+    margin: 0;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    transition: all 0.8s ease;
+  }
+
+  .nav-item {
+    letter-spacing: 3px;
+  }
+
+  /* scroll effect */
+  .active {
+    background: #868686;
+    height: 75px !important;
+    border-radius: 0;
+    padding: 0;
+    z-index: 2;
   }
   
   .active .nav-item {

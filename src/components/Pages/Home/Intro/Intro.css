@@ -131,6 +131,12 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
+
+  .intro-container{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
   .intro-title-container .intro-text{
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
@@ -210,5 +216,80 @@
 
   .download-container-content div img{
     display: none;
+  }
+}
+
+@media screen and (min-width: 600.1px) and (max-width: 900px){
+
+  .intro-container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  .intro-container-section{
+    height: initial;
+    padding-top: 55%;
+    padding-bottom: 30%;
+  }
+
+  .intro-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 0%;
+    z-index: 1;
+  }
+
+  .intro-title-container .intro-text{
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .intro-title-container .intro-text:last-child{
+    font-size: 25px;
+  }
+
+  .intro-title-container .intro-title{
+    font-size: 80px;
+    width: 100%;
+  }
+
+  .btn-about, .CV-download{
+    margin: 1rem 0;
+  }
+
+  .download-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-section{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .download-container-content div img{
+    width: 350px;
+    position: absolute;
+    top: -132.5px;
+    left: -165px;
+    z-index: -2;
+    opacity: 0.9;
+  }
+
+  .btn-about{
+    width: 16rem !important;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+  
+  /* cv-button */
+  .CV-download{
+    width: 16rem !important;
+    height: 4rem;
+    font-size: 1.4rem;
   }
 }

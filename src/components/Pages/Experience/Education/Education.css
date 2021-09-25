@@ -1,10 +1,10 @@
-.work-exp-container {
+.edu-container {
     background-color: var(--white);
-    padding-top: 8%;
+    padding-top: 1.5%;
     padding-bottom: 1.5%;
 }
 
-.work-exp-title {
+.edu-title {
     margin-top: 3rem;
     color: var(--black);
     font-family: 'Montserrat';
@@ -12,7 +12,7 @@
     font-weight: bold;
 }
 
-.work-exp-job-item {
+.edu-exp-item {
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
@@ -20,80 +20,81 @@
     align-items: center;
 }
 
-.work-exp-job-item .work-exp-job-info {
+.edu-exp-item .edu-exp-info {
     width: 70%;
     padding-left: 5rem;
 }
 
-.work-exp-job-item .work-exp-job-image {
+.edu-exp-item .edu-exp-image {
     width: 30%;
     padding-right: 5rem;
 }
 
-.work-exp-job-image img {
+.edu-exp-image img {
     width: 100%;
     display: block;
 }
 
-.work-exp-job-item .work-exp-job-info h3 {
+.edu-exp-item .edu-exp-info h3 {
     font-size: 2.5rem;
     font-family: 'Montserrat';
 }
 
-.work-exp-job-item .work-exp-job-info h3 span {
+.edu-exp-item .edu-exp-info h3 span {
     font-size: 1.2rem !important;
     color: var(--grey);
 }
 
-.work-exp-job-item .work-exp-job-info p {
+.edu-exp-item .edu-exp-info p {
     margin: 0.5rem 0 !important;
     font-size: 1rem;
     font-style: italic;
     font-family: 'Montserrat';
 }
 
-.work-exp-job-item .work-exp-job-info ul li {
+.edu-exp-item .edu-exp-info ul li {
     font-size: 1rem;
     color: var(--grey);
     font-family: 'Montserrat';
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
-    .work-exp-container {
-        padding-top: 8rem;
+    .edu-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
-    .work-exp-title {
+    .edu-title {
         margin-top: 0rem;
         font-size: 1.4rem;
         font-weight: bold;
     }
-    .work-exp-job-container {
+    .edu-exp-container {
         margin: 2rem;
     }
-    .work-exp-job-item {
+    .edu-exp-item {
         flex-direction: column;
     }
-    .work-exp-job-item .work-exp-job-info {
+    .edu-exp-item .edu-exp-info {
         width: 100%;
         padding-left: 0rem;
     }
-    .work-exp-job-item .work-exp-job-info h3 {
+    .edu-exp-item .edu-exp-info h3 {
         font-size: 1.2rem;
         font-family: 'Roboto';
     }
-    .work-exp-job-item .work-exp-job-info h3 span {
+    .edu-exp-item .edu-exp-info h3 span {
         font-size: 1rem !important;
     }
-    .work-exp-job-item .work-exp-job-info p {
+    .edu-exp-item .edu-exp-info p {
         font-size: 0.9rem;
         font-family: 'Roboto';
     }
-    .work-exp-job-item .work-exp-job-info ul li {
+    .edu-exp-item .edu-exp-info ul li {
         font-size: 0.9rem;
         font-family: 'Roboto';
     }
     /* image */
-    .work-exp-job-item .work-exp-job-image {
+    .edu-exp-item .edu-exp-image {
         display: none;
     }
 }

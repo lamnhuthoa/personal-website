@@ -1,5 +1,14 @@
-.exp-body-container{
+.exp-body-container {
     background-color: var(--white);
-    height:100vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
 }
+
+
+/* @media screen and (min-width: 300px) and (max-width: 600px) {
+    .exp-body-container {
+        background-color: var(--white);
+        height: 100vh;
+        width: 100%;
+    }
+} */

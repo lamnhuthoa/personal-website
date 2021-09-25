@@ -85,3 +85,18 @@
     display: block;
   }
 }
+
+@media screen and (min-width: 600.1px) and (max-width: 900px){
+
+  .social-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  
+  .social-item i {
+    font-size: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem !important;
+    display: block;
+  }
+}
