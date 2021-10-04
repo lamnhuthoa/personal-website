@@ -26,6 +26,10 @@
   transform: translateX(-6%);
 }
 
+.social-item-soundcloud i{
+  transform: translateX(-10%);
+}
+
 .social-item i {
   z-index: 2;
   display: block;
@@ -60,10 +64,15 @@
   background: rgba(255, 0, 0);
 }
 
+.social-item-soundcloud:hover {
+  background: rgba(255, 116, 0);
+}
+
 .social-item-github:hover i,
 .social-item-insta:hover i,
 .social-item-linkedin:hover i,
-.social-item-youtube:hover i {
+.social-item-youtube:hover i,
+.social-item-soundcloud:hover i {
   color: var(--white);
 }
 

@@ -26,6 +26,11 @@ export default class Social extends Component {
                             <i className="fab fa-youtube"></i>
                         </div>
                     </a>
+                    <a href="https://soundcloud.com/lamnhuthoa">
+                        <div className="social-item social-item-soundcloud">
+                            <i class="fab fa-soundcloud"></i>
+                        </div>
+                    </a>
                 </div>
             </div>
         )
